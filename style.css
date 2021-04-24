@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Dancing+Script&display=swap');
+html,body {
+ margin: 0;
+ padding: 0;
+}
+
+#main {
+ height: 100px;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content:space-between;
+ flex-direction: column;
+ margin-top: 50px;
+}
+#today__is {
+ font-size: 55px;
+ padding: 0;
+ margin: 0;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#day__of__week {
+ font-size: 100px;
+ color: blue;
+ font-family: Charm;
+}
+#today__activity {
+ font-size: 55px;
+ color:green;
+ font-family: Dancing Script;
+}
